@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "MV Boli" sans-serif;
+}
+
+/* Header */
+header {
+  background-image: url(img/background.jpg);
+  background-size: auto;
+}
+
+.navbar {
+  display: flex;
+  padding: 30px 0;
+}
+
+.logo h2 {
+  padding-left: 100px;
+  margin: 30px 0;
+  font-family: "Lucida Handwriting", sans-serif;
+  float: left;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav li {
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 30px;
+}
+
+.bar {
+  background: linear-gradient(to top right, #4d4848 0%, #d27979 100%);
+}
+
+.bar:hover {
+  background: linear-gradient(to top right, #245c7c 0%, #584040 100%);
+}
+
+.active a {
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid rgb(93, 27, 95);
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.brand {
+  margin: 150px 40px;
+}
+
+.brand h1 {
+  font-size: 50px;
+}
+
+.brand p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.brand .button {
+  background-color: #993300;
+  border-radius: 8px;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 70px 2px;
+  cursor: pointer;
+}
+
+.brand .button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.small-container {
+  padding: 0 10%;
+  padding-bottom: 10%;
+}
+
+.gambar img {
+  width: 350px;
+  height: 300px;
+  float: right;
+}
+
+.mission h3 {
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin: 0 100px;
+}
+.mission h2 {
+  font-size: 35px;
+  padding-bottom: 15px;
+  text-align: justify;
+  margin: 0 130px;
+}
+
+.footer {
+  background: rgb(136, 127, 127);
+  box-shadow: 0 1px 1px 0 rgb(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 60px 0 40px;
+  overflow: hidden;
+}
+
+.footer-left {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  float: left;
+}
+
+.footer-left h1 {
+  font-family: "Lucida Handwriting", sans-serif;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 2.5rem;
+}
+
+.footer-left h2 {
+  margin-top: 1.3em;
+  font-size: 24px;
+  font-weight: 400;
+}
+.footer address {
+  font-style: normal;
+  color: rgb(71, 65, 65);
+}
+
+.footer .footer-right {
+  float: right;
+}
+
+.footer-right p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+  font-family: "MV Boli" sans-serif;
+  font-size: 20px;
+}
+
+.footer-right form {
+  display: inline-block;
+}
+
+.footer form input,
+.footer form textarea {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.102);
+  border: none;
+  resize: none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #d1d2d2;
+  width: 400px;
+  padding: 18px;
+}
+
+.footer form input {
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer form textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer button {
+  border-radius: 3px;
+  background-color: #33383b;
+  color: #fff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#LogIn button {
+  background: linear-gradient(to top right, #4d4848 0%, #d27979 100%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30px;
+}
+
+#LogIn button:hover {
+  opacity: 0.8;
+  background: linear-gradient(to top right, #245c7c 0%, #584040 100%);
+}
+
+#LogIn .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 100px;
+  text-align: left;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+#LogIn .container {
+  padding: 16px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glory Furniture</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <h2>Furniture-Glory-</h2>
+            </div>
+            <nav>
+              <ul id="Menu">
+                <li class="active"><a  href="index.html">Home</a></li>
+                <li class="bar"><a href="decoration.html">Decoration</a></li>
+                <li class="bar"><a href="furniture.html">Furniture</a></li>
+                <li class="bar"><a href="contact.html">Contact</a></li>
+                <li>
+                  <div id="LogIn">
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width: auto"><a>Log In</a></button>
+                    <div id="id01" class="modal">
+                      <form class="modal-content animate" action="/action_page.php" method="post">
+                        <div class="imgcontainer">
+                          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+                          <img src="img/avatar.png" alt="avatar" class="avatar" width="300" height="300" />
+                        </div>
+
+                        <div class="container">
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required />
+
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required />
+
+                          <button type="submit">Login</button>
+                          <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label>
+                        </div>
+            
+                        <div class="container" style="background-color: #f1f1f1">
+                          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                          <span class="psw"><a href="#" style="color: black;">Forgot Password?</a></span>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="brand">
+        <h1>
+          Looking to shop for everything,<br />
+          all at once?
+        </h1>
+        <p>You’ll be surprised at the cool furniture, bedding, high quality bath, and others.</p>
+        <div class="button">
+          <a href="#">See More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Offer -->
+    <div class="small-container">
+      <div class="gambar">
+        <img src="img/mission.jpg" alt="our mission" />
+      </div>
+      <div class="mission">
+        <h2>Our Mission</h2>
+        <h3>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, possimus voluptates fuga itaque magnam at adipisci necessitatibus nesciunt repudiandae impedit ipsa, totam labore libero, vitae dolorem. At natus minus ipsa, fugiat
+          veniam nulla maxime quae delectus voluptatum magni unde in repellendus odio vitae facere officia.
+        </h3>
+      </div>
+      <br />
+      <br />
+    </div>
+    <!-- End Offer -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-left">
+          <h1>Furniture-Glory</h1>
+
+          <h2>Contact</h2>
+
+          <address>
+            Somewhere in the World No.212<br />
+            <a href="#">Email Us</a>
+          </address>
+        </div>
+        <div class="footer-right">
+          <p>Contact Us</p>
+          <form action="#" method="post">
+            <input type="text" name="email" placeholder="Email" />
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
